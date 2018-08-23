@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Mon Feb  5 04:20:36 2018
+[*]
+[dumpfile] "fact.lx2"
+[dumpfile_mtime] "Mon Feb  5 04:15:45 2018"
+[dumpfile_size] 78353
+[savefile] "fact.gtkw"
+[timestart] 0
+[size] 1536 811
+[pos] -61 -61
+*-5.429790 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_fact.
+[treeopen] tb_fact.proc.
+[sst_width] 224
+[signals_width] 262
+[sst_expanded] 1
+[sst_vpaned_height] 226
+@28
+tb_fact.clk[0]
+tb_fact.proc.reset[0]
+@2024
+^1 stateFilter.txt
+tb_fact.proc.state[31:0]
+@22
+tb_fact.proc.pc[31:0]
+tb_fact.proc.ir[31:0]
+@800200
+-reg_read
+@24
+tb_fact.proc.regs.rd0_num[4:0]
+@22
+tb_fact.proc.regs.rd0_data[31:0]
+tb_fact.proc.regs.rd1_num[4:0]
+tb_fact.proc.regs.rd1_data[31:0]
+@1000200
+-reg_read
+@22
+tb_fact.proc.a[31:0]
+tb_fact.proc.b[31:0]
+@420
+tb_fact.proc.sign_ext_imm[31:0]
+@22
+tb_fact.proc.alu_out[31:0]
+@800200
+-data mem
+@29
+tb_fact.proc.data_access_size[1:0]
+@22
+tb_fact.proc.data_addr[31:0]
+tb_fact.proc.data_in[31:0]
+tb_fact.proc.data_out[31:0]
+@28
+tb_fact.proc.data_rd_wr[0]
+@1000200
+-data mem
+@800200
+-reg_write
+@24
+tb_fact.proc.regs.wr_num[4:0]
+@22
+tb_fact.proc.regs.wr_data[31:0]
+@28
+tb_fact.proc.regs.wr_en[0]
+@1000200
+-reg_write
+[pattern_trace] 1
+[pattern_trace] 0

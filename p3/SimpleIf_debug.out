@@ -1,0 +1,28 @@
+iverilog -g2005-sv -s tb_SimpleIf_debug -o SimpleIf_debug.vvp p3_tb.sv memory.sv regfile.sv mips.sv
+vvp -n SimpleIf_debug.vvp
+pc 80020000 write 8011ffe8 to r29
+pc 80020004 store xxxxxxxx at [8011fffc]
+pc 80020008 write 8011ffe8 to r30
+pc 8002000c write 00000003 to r2
+pc 80020010 store 00000003 at [8011ffe8]
+pc 80020014 write 00000002 to r2
+pc 80020018 store 00000002 at [8011ffec]
+pc 8002001c store 00000000 at [8011fff0]
+pc 80020020 write 00000003 to r2
+pc 80020024 write 00000001 to r2
+pc 80020028
+pc 8002002c write 00000000 to r0
+pc 80020030 write 00000003 to r3
+pc 80020034 write 00000002 to r2
+pc 80020038 write 00000005 to r2
+pc 8002003c store 00000005 at [8011ffe8]
+pc 80020040
+pc 80020058 write 00000005 to r3
+pc 8002005c write 00000002 to r2
+pc 80020060 write 00000007 to r2
+pc 80020064 store 00000007 at [8011fff0]
+pc 80020068 write 00000007 to r2
+pc 8002006c write 8011ffe8 to r29
+pc 80020070 write xxxxxxxx to r30
+pc 80020074 write 80120000 to r29
+pc 80020078

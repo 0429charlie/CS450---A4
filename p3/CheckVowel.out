@@ -1,0 +1,26 @@
+iverilog -g2005-sv -s tb_CheckVowel -o CheckVowel.vvp p3_tb.sv memory.sv regfile.sv mips.sv
+vvp -n CheckVowel.vvp
+ch=C
+ch=h
+ch=e
+# vowels=1
+ch=c
+ch=k
+ch=V
+ch=o
+# vowels=2
+ch=w
+ch=e
+# vowels=3
+ch=l
+ch=!
+ch=
+
+ch=
+ch=
+ch=
+ch=
+ch=
+ch=
+ch=
+ch=

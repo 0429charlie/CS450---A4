@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Mon Feb  5 04:20:36 2018
+[*]
+[dumpfile] "SumArray.lx2"
+[dumpfile_mtime] "Mon Feb  5 04:15:45 2018"
+[dumpfile_size] 78353
+[savefile] "SumArray.gtkw"
+[timestart] 0
+[size] 1536 811
+[pos] -61 -61
+*-5.429790 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_SumArray.
+[treeopen] tb_SumArray.proc.
+[sst_width] 224
+[signals_width] 262
+[sst_expanded] 1
+[sst_vpaned_height] 226
+@28
+tb_SumArray.clk[0]
+tb_SumArray.proc.reset[0]
+@2024
+^1 stateFilter.txt
+tb_SumArray.proc.state[31:0]
+@22
+tb_SumArray.proc.pc[31:0]
+tb_SumArray.proc.ir[31:0]
+@800200
+-reg_read
+@24
+tb_SumArray.proc.regs.rd0_num[4:0]
+@22
+tb_SumArray.proc.regs.rd0_data[31:0]
+tb_SumArray.proc.regs.rd1_num[4:0]
+tb_SumArray.proc.regs.rd1_data[31:0]
+@1000200
+-reg_read
+@22
+tb_SumArray.proc.a[31:0]
+tb_SumArray.proc.b[31:0]
+@420
+tb_SumArray.proc.sign_ext_imm[31:0]
+@22
+tb_SumArray.proc.alu_out[31:0]
+@800200
+-data mem
+@29
+tb_SumArray.proc.data_access_size[1:0]
+@22
+tb_SumArray.proc.data_addr[31:0]
+tb_SumArray.proc.data_in[31:0]
+tb_SumArray.proc.data_out[31:0]
+@28
+tb_SumArray.proc.data_rd_wr[0]
+@1000200
+-data mem
+@800200
+-reg_write
+@24
+tb_SumArray.proc.regs.wr_num[4:0]
+@22
+tb_SumArray.proc.regs.wr_data[31:0]
+@28
+tb_SumArray.proc.regs.wr_en[0]
+@1000200
+-reg_write
+[pattern_trace] 1
+[pattern_trace] 0

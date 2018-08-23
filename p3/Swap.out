@@ -1,0 +1,4 @@
+iverilog -g2005-sv -s tb_Swap -o Swap.vvp p3_tb.sv memory.sv regfile.sv mips.sv
+vvp -n Swap.vvp
+a=9, b=5
+a+b=14
